@@ -1,0 +1,11 @@
+Apologies go here (views/apologies.erb)
+<ul class="apologies">
+<% @apologies.each do |apology| 
+     column_class = "columns#{apology.display_params.columns}" %>
+  <li class="apology <%=column_class%>">
+    <h1 class="title"><%= apology.title %></h1>
+    <div class="body"><%= partial apology.block_partial, :locals => {:apology => apology} %></div>
+  </li>
+<% end %>
+</ul>
+

@@ -1,0 +1,14 @@
+- 
+  title: 'apology 1'
+  display_params: 
+    columns: 1
+    color: #fcf
+    background: #444
+  html_block_file: 'apology1'
+- 
+  title: 'apology 2'
+  display_params: 
+    columns: 2
+    color: #ccf
+    background: #044
+  html_block_file: 'apology2'
